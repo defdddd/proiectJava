@@ -39,7 +39,7 @@ CREATE TABLE Booking (
 );
 
 CREATE TABLE Review (
-  id INT NOT NULL,
+  id INT NOT NULL AUTO_INCREMENT,
   account_id INT NOT NULL,
   location_id INT NOT NULL,
   grade INT,
